@@ -11977,6 +11977,10 @@ footer.footer {
   width: 100%;
 }
 
+main {
+  margin-bottom: 215px;
+}
+
 p {
   font-family: "Grandstander", serif;
   font-size: 18px;
