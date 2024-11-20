@@ -12010,4 +12010,14 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.image-contaner {
+  position: relative;
+}
+.image-contaner .btn {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }/*# sourceMappingURL=main.css.map */
