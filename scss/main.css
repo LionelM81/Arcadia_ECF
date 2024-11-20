@@ -11978,7 +11978,7 @@ footer.footer {
 }
 
 main {
-  margin-bottom: 215px;
+  margin-bottom: 250px;
 }
 
 p {
@@ -12020,4 +12020,14 @@ p {
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.avis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-label {
+  color: #9E8654;
 }/*# sourceMappingURL=main.css.map */
