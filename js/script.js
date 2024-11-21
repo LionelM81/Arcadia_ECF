@@ -66,12 +66,12 @@ connected (admin, employe, vétérinaire)
 
 function showAndHideElementsForRoles() {
     const userConnected = isConnected();
-    const role = getrole();
+    const role = getRole();
 
     let allElementsToEdit = document.querySelectorAll('[data-show');
 
     allElementsToEdit.forEach(element => {
-        switch (element.datset.show) {
+        switch (element.dataset.show) {
             case 'disconnected':
                 if (userConnected) {
                     element.classList.add("d-none");
